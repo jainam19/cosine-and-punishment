@@ -20,7 +20,7 @@ Bring your own data as CSVs in `data/` (see `data/README_download.md` for expect
 
 ## 3) Reproduce
 ```bash
-python -m venv .venv && .venv\Scripts\activate  # Windows
+python -m venv .venv && .venv\Scripts\activate # Windows
 # or: source .venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 jupyter lab  # open notebooks/final_notebook.ipynb or item/user notebooks
